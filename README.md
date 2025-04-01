@@ -5,7 +5,8 @@ A Swift implementation of the [Earcut](https://github.com/mapbox/earcut) polygon
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![Swift CI](https://github.com/apache-edge/earcut/actions/workflows/swift.yml/badge.svg)](https://github.com/apache-edge/earcut/actions/workflows/swift.yml)
 [![Platforms](https://img.shields.io/badge/platforms-macOS%20|%20iOS%20|%20tvOS%20|%20iPadOS%20|%20visionOS%20|%20Linux%20|%20Windows%20|%20Android-lightgrey.svg)](https://github.com/apache-edge/earcut)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/apache-edge/earcut?include_prereleases&sort=semver)](https://github.com/apache-edge/earcut/releases)
 
 ## Table of Contents
 - [Features](#features)
@@ -40,7 +41,7 @@ Add the dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/apache-edge/earcut.git", from: "1.0.0")
+    .package(url: "https://github.com/apache-edge/earcut.git", from: "0.0.1")
 ]
 ```
 
@@ -180,4 +181,7 @@ This Swift implementation is based on the JavaScript reference implementation by
 The algorithm has a time complexity of O(n log n) and a space complexity of O(n).
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## Credits
+Based on the original [Earcut](https://github.com/mapbox/earcut) JavaScript implementation by Mapbox.
