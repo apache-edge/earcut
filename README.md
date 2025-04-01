@@ -181,7 +181,17 @@ This Swift implementation is based on the JavaScript reference implementation by
 The algorithm has a time complexity of O(n log n) and a space complexity of O(n).
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
+The Apache License 2.0 is a permissive open source license that allows you to:
+- Use the code for commercial purposes
+- Modify the code and create derivative works
+- Distribute the original or modified code
+- Use the code privately
+
+The license requires you to:
+- Include the license and copyright notice with any distribution
+- State changes made to the code if distributed
 
 ## Credits
 Based on the original [Earcut](https://github.com/mapbox/earcut) JavaScript implementation by Mapbox.
